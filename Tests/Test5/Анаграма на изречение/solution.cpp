@@ -1,4 +1,7 @@
-#icnlude <bits/stdc++.h>
+#include <iostream>
+#include <map>
+#include <string>
+
 
 bool canFormSentence(std::map<std::string, int> &firstSentenceWords, std::map<std::string, int> &secondSentenceWords) {
     for (auto &word : secondSentenceWords) {
